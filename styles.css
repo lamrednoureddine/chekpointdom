@@ -1,0 +1,91 @@
+  /* Style CSS de base */
+  body {
+    font-family: Arial, sans-serif;
+}
+.fruit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.fruit-info {
+    flex: 1;
+}
+.fruit-name {
+    font-size: 18px;
+}
+.fruit-price {
+    color: green;
+}
+.add-to-cart {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+img{
+    width: 50px;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.cart-container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    margin: 10px 0;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h2 {
+    margin: 0;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.cart-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+
+
+
+.favorite .add-to-favorites {
+    color: red;
+}
